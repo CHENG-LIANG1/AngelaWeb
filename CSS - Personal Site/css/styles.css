@@ -70,3 +70,10 @@ h3, a {
 
 
 
+.code-skill-description {
+    clear: left;
+}
+
+.flutter-skill-description {
+    clear: right;
+}
