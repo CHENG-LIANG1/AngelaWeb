@@ -1,7 +1,7 @@
 body {
     margin: 0;
     text-align: center; /* it will center everything without a width set*/
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -22,6 +22,7 @@ h2 {
 }
 
 h3, a {
+    font-family: 'Montserrat', sans-serif;
     color: #11999e;
 }
 
@@ -60,20 +61,37 @@ h3, a {
     width: 25%;
     float: left;
     margin-right: 30px;
+    border-radius: 100%;
 }
 
 .flutter-img {
     width: 25%;
     float: right;
     margin-left: 30px;
+    border-radius: 100%;.
+    
 }
 
 
 
-.code-skill-description {
+/* .code-skill-description {
     clear: left;
 }
 
 .flutter-skill-description {
     clear: right;
+} */
+
+hr {
+    border-style: dotted none none;
+    border-color: #eaf6f6;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 10rem;
+    margin-top: 30px;
 }
