@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center; /* it will center everything without a width set*/
     font-family: 'Roboto Condensed', sans-serif;
+    color: #40514E;
 }
 
 h1 {
@@ -53,7 +54,7 @@ h3, a {
 
 .skill-row {
     width: 50%;
-    margin: 100px auto;
+    margin: 10rem auto;
     text-align: left;
 }
 
@@ -68,7 +69,7 @@ h3, a {
     width: 25%;
     float: right;
     margin-left: 30px;
-    border-radius: 100%;.
+    border-radius: 100%;
     
 }
 
@@ -94,4 +95,36 @@ hr {
     border-radius: 100%;
     width: 10rem;
     margin-top: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: auto;
+    margin-bottom: 4rem;
+    width: 15%;
+    background-color: #66BFBF;
+    border-radius: 20px;
+    display: block;
+    font-size: 1rem;
+    color: white;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 2rem 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    padding: 0 2rem;
+    color: #000;
+}
+
+.copyright {
+    margin-top: 2rem;
+}
+
+.footer-link:hover {
+    color: white;
 }
